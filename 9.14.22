@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main () {
+int a = 10; 
+int *p = &a;
+
+int arr[10] = {0};
+p = arr;
+
+arr[5];
+(arr +5) // 5 * sizeof(int)
+return 0;
+}
+
+
+
