@@ -11,5 +11,26 @@ arr[5];
 return 0;
 }
 
+----------------------------
+int pow2(int a) {
+return a * a;
+}
 
+int (*fn_ptr)(int) = pow2
 
+pow2(10);
+fn_ptr;
+---------------------------
+int pow2(int a) {
+return a * a;
+}
+void use_functional(int (*fn)(int a), int x){
+printf("fn(%d) = &d
+------------------------------
+#include <stdio.h>
+#include<string.h>
+#include < float.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+typedef double 
