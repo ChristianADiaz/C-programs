@@ -15,7 +15,7 @@ uint8_t a;
 uint8_t b = 6;
 printf ("a a==b a<b a>b");
 for (int i = 0; i < 32; i++) {
-  [a = (a+1)% 16]
+  a = (a+1)% 16;
 printf ("%d %d %d %d", a, a==b, a<b, a>b );
   return 0;
 }
