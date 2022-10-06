@@ -22,8 +22,8 @@ user_s parse_user(char *csv_line) {
     user_s user = { 0 };
 
     while (token != NULL) {
-
-        switch(attr_num);{
+        
+        switch(attr_num){
         case 0:
         strcpy(user.name, token);
             break;
