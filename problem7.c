@@ -25,7 +25,7 @@ user_s parse_user(char *csv_line) {
         
         switch(attr_num){
         case 0:
-        user.id atoi(token);
+        user.id = atoi(token);
             case 1:
         strcpy(user.name, token);
             break;
