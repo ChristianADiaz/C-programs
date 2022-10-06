@@ -25,6 +25,7 @@ user_s parse_user(char *csv_line) {
 
         // Grab next token
         token = strtok(NULL, ",");
+        ++attr_num;
     }
 
     return user;
