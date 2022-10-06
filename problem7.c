@@ -21,8 +21,13 @@ user_s parse_user(char *csv_line) {
     int attr_num = 0;
     user_s user = { 0 };
 
-    while (token) {
+    while (token != NULL) {
 
+        switch(attr_num);
+        case 0:
+        strcpy(user.name, token)
+            break;
+  
         // Grab next token
         token = strtok(NULL, ",");
         ++attr_num;
