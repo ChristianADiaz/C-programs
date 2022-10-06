@@ -16,7 +16,7 @@ void trim(char *str) {
 
 int find_user(char *key, user_s users[], int num_users) {
     for (int i = 0; i < num_users; i++) {
-        if (!strcmp(users[i]->name, key)) {
+        if (!strcmp(users[i].name, key)) {
             return i;
         }
     }
